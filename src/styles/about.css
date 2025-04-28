@@ -1,0 +1,109 @@
+/* src/styles/about.css */
+
+.about-page {
+  padding: 60px 20px;
+  background-color: #f0f4f8;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-page h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-page .content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-page h2 {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  color: #2a2a2a;
+}
+
+.about-page img {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-page ul {
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.about-page li::before {
+  content: '✔️';
+  margin-right: 10px;
+  color: #ff7e5f;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.info-card {
+  flex: 1;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h3 {
+  margin-bottom: 10px;
+  color: #ff7e5f;
+  font-size: 1.4rem;
+}
+
+/* New Section for Team */
+.team-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.team-section img {
+  width: 48%;    /* Both images will take up 48% width each */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.team-section .team-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-section .team-text h2 {
+  font-size: 2rem;
+  color: #2a2a2a;
+}
+
+.team-section .team-text p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  line-height: 1.6;
+}
