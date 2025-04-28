@@ -1,6 +1,10 @@
 // src/pages/Home.jsx
 import React from "react";
 import "../styles/home.css";
+import investmentsImage from '../assets/investments.jpg';
+import consultingImage from '../assets/businessConsulting.jpg';
+import immigrationImage from '../assets/immigrationPathway.jpg';
+
 
 const Home = () => {
   return (
@@ -21,15 +25,15 @@ const Home = () => {
         <h2>Explore Our Expertise</h2>
         <div className="highlight-grid">
           <div className="highlight-card">
-            <img src="/src/assets/investments.jpg" alt="Investments in USA" />
+          <img src={investmentsImage} alt="Investments in USA" />
             <h3>Investments in USA</h3>
           </div>
           <div className="highlight-card">
-            <img src="/src/assets/businessConsulting.jpg" alt="Business Consulting" />
+          <img src={consultingImage} alt="Business Consulting" />
             <h3>Business Consulting</h3>
           </div>
           <div className="highlight-card">
-            <img src="/src/assets/immigrationPathway.jpg" alt="Immigration Pathways" />
+          <img src={immigrationImage} alt="Immigration Pathways" />
             <h3>Immigration Pathways</h3>
           </div>
         </div>
