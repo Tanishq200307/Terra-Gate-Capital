@@ -4,6 +4,7 @@
   "description": "Professional Immigration Services Website",
   "main": "index.html",
   "scripts": {
+      "build": "./build.sh",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
