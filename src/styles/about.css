@@ -32,7 +32,7 @@
   margin: 30px auto;
   max-width: 100%;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-page ul {
@@ -61,7 +61,7 @@
   background-color: #ffffff;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -87,7 +87,7 @@
   width: 48%;    /* Both images will take up 48% width each */
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .team-section .team-text {
@@ -106,4 +106,35 @@
   font-size: 1.2rem;
   margin-top: 20px;
   line-height: 1.6;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .about-page h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-page h2 {
+    font-size: 1.6rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .team-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-section img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
